@@ -96,17 +96,17 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wa0-9E-fi6">
-                                        <rect key="frame" x="42" y="34" width="78" height="17"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wa0-9E-fi6">
+                                        <rect key="frame" x="14" y="34" width="107" height="17"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overall %:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-51-JOu">
-                                                <rect key="frame" x="0.0" y="0.0" width="64" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Overall Win %:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-51-JOu">
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9y-Yu-cbl">
-                                                <rect key="frame" x="69" y="0.0" width="9" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9y-Yu-cbl">
+                                                <rect key="frame" x="98" y="0.0" width="9" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -141,6 +141,7 @@
                         <outlet property="bestStreakLbl" destination="Qde-uF-LUN" id="S5Z-Hw-KEK"/>
                         <outlet property="currentStreakLbl" destination="j7B-ub-rQG" id="jAj-x2-lXP"/>
                         <outlet property="headsOrTails" destination="yOx-0s-KPA" id="tNl-66-Ogo"/>
+                        <outlet property="percentageLbl" destination="c9y-Yu-cbl" id="43f-YA-L8N"/>
                         <outlet property="segmentedControl" destination="A0e-70-S7q" id="GEQ-5p-Mtr"/>
                         <outlet property="winOrLose" destination="OEi-pv-c1t" id="AqO-cX-4wm"/>
                     </connections>

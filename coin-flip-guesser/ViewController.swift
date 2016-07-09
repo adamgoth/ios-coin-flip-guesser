@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bestStreakLbl: UILabel!
     
+    @IBOutlet weak var percentageLbl: UILabel!
+    
     var coin: [String] = ["Heads", "Tails"]
     var userSelection: String = "Heads"
     var flipResult: String!
@@ -54,6 +56,7 @@ class ViewController: UIViewController {
             currentStreakLbl.text = "\(streak)"
             total += 1
         }
+        percentageLbl.text = "\(Int(round((Double(wins)/Double(total))*100)))"
     }
     
     @IBAction func indexChanged(sender: AnyObject) {
